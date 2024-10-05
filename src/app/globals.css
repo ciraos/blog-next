@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 244, 244, 244;
+  --box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --box-shadow-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 244, 244, 244;
+    --background-start-rgb: 15, 20, 35;
+    --background-end-rgb: 20, 20, 20;
+  }
+}
+
+body {
+  /* background: linear-gradient(to right, rgb(var(--background-end-rgb)) 10%, rgb(var(--background-start-rgb)) 90%); */
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+#recent-post>#recent-post-item:not(:first-child) {
+  margin-top: 20px;
+}
+
+/* #recent-post>#recent-post-item:nth-child(even) {
+  flex-direction: row-reverse;
+} */
+
+.todo>li:not(:first-child) {
+  margin-top: 5px;
+}
+
+.btli:hover .droplist {
+  display: block;
+}
+
+/* .p-container {} */
+
+.p-progress {
+  height: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #39c5bb;
+}
+
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  /* background: whitesmoke; */
+  background-color: transparent;
+}
+
+.main-container {
+  word-wrap: break-word;
+}
+
+.main-container h1,
+.main-container h2,
+.main-container h3,
+.main-container h4,
+.main-container h5,
+.main-container h6 {
+  font-weight: 400;
+}
+
+.main-container h1 {
+  font-size: 1.5rem;
+  margin: .67em 0;
+  padding-bottom: .2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(68, 68, 68, .1);
+  margin-top: 48px;
+}
+
+.main-container h2 {
+  margin-top: 48px;
+  font-size: 1.5rem;
+  border-left: 10px solid pink;
+  padding: 0 10px;
+}
+
+.main-container h3 {
+  margin-top: 24px;
+  font-size: 1.25rem;
+  border-left: 10px solid skyblue;
+  padding: 0 10px;
+}
+
+.main-container h4 {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  border-left: 10px solid orange;
+  padding: 0 10px;
+}
+
+.main-container h5 {
+  margin-top: 1em;
+  font-size: 1rem;
+  border-left: 10px solid purple;
+  padding: 0 10px;
+}
+
+.main-container h6 {
+  margin-top: 1em;
+  font-size: 1rem;
+  border-left: 10px solid tomato;
+  padding: 0 10px;
+}
+
+/* .main-container pre {} */
+/* .main-container pre code {} */
+
+.main-container blockquote {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  /* background: linear-gradient(45deg, #f4f4f4 60%, #39c5bb 40%); */
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  /* text-wrap: wrap; */
+  word-break: break-all;
+}
+
+.main-container blockquote::before {
+  content: "";
+  width: 5px;
+  height: 36px;
+  background-color: grey;
+  margin: 0 10px;
+}
+
+.main-container a {
+  /* border-bottom: 2px solid #39c5bb; */
+  margin: 5px;
+  color: #39c5bb;
+  font-weight: bold;
+}
+
+.main-container a:hover {
+  text-decoration: underline;
+}
+
+.main-container a::after {
+  content: "↗";
+  color: #39c5bb;
+  margin-left: 2px;
+  /* margin-top: -2px; */
+  /* position: absolute; */
+}
+
+.main-container p {
+  margin: 20px 0;
+  text-indent: 8px;
+}
+
+.main-container del {
+  text-decoration: line-through;
+}
+
+.main-container ol {
+  margin-top: 10px;
+}
+
+.main-container ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.main-container ul {
+  margin-top: 10px;
+}
+
+.main-container ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/* .main-container strong {} */
+
+.main-container table,
+.main-container th,
+.main-container td {
+  border: 1px solid black;
+}
+
+.main-container table {
+  margin: 10px auto;
+}
+
+.flink a::after {
+  content: none;
+}
+
+/* @media screen and (max-width: 320px) {} */
+
+@media screen and (max-width: 768px) {
+  .ss {
+    width: 100%;
+  }
+
+  /* .ss-item {} */
+
+  #recent-post>#recent-post-item:nth-child(even) {
+    flex-direction: column;
+  }
+}
