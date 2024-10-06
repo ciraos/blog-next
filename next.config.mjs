@@ -8,7 +8,7 @@ const nextConfig = {
 };
 
 const withMDX = createMDX({
-    extension: /\.md?$/,
+    extension: /\.mdx?$/,
     options: {
         remarkPlugins: [],
         rehypePlugins: [],

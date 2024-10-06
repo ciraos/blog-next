@@ -18,7 +18,7 @@ export default function RootLayout({children,}:Readonly<{children:React.ReactNod
   return (
     <html lang="zh-CN" className={inter.className}>
       {/* <body className={inter.className}>{children}</body> */}
-      <body className="font-mono">
+      <body className="">
         <Navbar />
         {/* <Banner /> */}
         {children}

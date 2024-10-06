@@ -6,7 +6,7 @@ import Capoo from "@/components/capoo";
 export default function Footer() {
   return (
     <>
-      <div id="footer" className="footer w-full bottom-0 clear-both mx-auto my-0 py-1 text-center">
+      <div id="footer" className="footer w-full bottom-0 clear-both mx-auto my-0 py-0 text-center">
 
         <Capoo />
         <div className="mx-auto flex h-6 w-1/2 items-center justify-center gap-4">

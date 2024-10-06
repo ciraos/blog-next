@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3500",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 3500",
+    "lint": "next lint",
+    "run": "npm run build && node .next/standalone/server.js -p 3500"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",

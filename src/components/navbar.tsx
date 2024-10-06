@@ -28,9 +28,9 @@ export default function Navbar() {
         </div>
 
         <div className="w-1/3 h-16 flex items-center justify-end text-xl gap-2">
-          <div className="search"><Icon icon="iconamoon:search-duotone" /></div>
-          <div className="console"><Icon icon="mdi-light:console" /></div>
-          <div className="mo-nav hidden max-768:block"><Icon icon="hugeicons:menu-square" /></div>
+          <div id="search"><Icon icon="iconamoon:search-duotone" /></div>
+          {/* <div id="darkModeToggleButton" className="w-5 h-5 rounded-[50%] bg-black border-2 border-solid border-black cursor-pointer transition-all"></div> */}
+          <div className="mo-nav hidden hover:rotate-45 max-768:block"><Icon icon="hugeicons:menu-square" /></div>
         </div>
         
       </div>
