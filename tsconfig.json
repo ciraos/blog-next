@@ -32,8 +32,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/lib/posts.ts",
-    "src/lib/image.d.ts"
+    "src/lib/*.*.ts",
+    "src/lib/*.ts"
   ],
   "exclude": [
     "node_modules"
