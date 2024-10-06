@@ -9,7 +9,7 @@ const processer = unified()
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypeRemark)
-    .use(rehypeSanitize)
+    // .use(rehypeSanitize)
     .use(rehypeStringify)
 
 export default async function markdown2html(markdown: string) {

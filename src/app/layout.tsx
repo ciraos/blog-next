@@ -5,7 +5,6 @@ import Navbar from "@/components/navbar";
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Rightside from "@/components/rightside";
-import Search from "@/components/search";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
