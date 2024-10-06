@@ -10,7 +10,6 @@ export const todolist = [
         id: 1,
         content: "post功能实现以及博客首页渲染文章列表",
         isFinished: true,
-        finishedDate: '2024-09-22'
     },{
         id: 2,
         content: "导航栏下拉列表以及自适应",

@@ -34,7 +34,6 @@ export default function Friends(){
                             </div>
                         </div>
                     ))}
-                    <div className="bg-white rounded-xl px-1 py-1">tab</div>
                 </div>
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
             </div>

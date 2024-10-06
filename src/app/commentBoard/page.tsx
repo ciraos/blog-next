@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Aside from "@/components/aside";
-import Waline from "@/components/thirdParty/waline";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,7 +19,6 @@ export default function Commentboard() {
                     <p className="text-center text-4xl text-green-600">或者你有什么疑问？</p>
                     <p className="text-center text-4xl text-purple-600">都可以在这里提出来哦！</p>
                     <p className="text-center text-4xl text-pink-600">我会耐心解答的！</p>
-                    <Waline />
                 </div>
 
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>

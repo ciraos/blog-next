@@ -31,7 +31,7 @@ export const navList = [
         child: [
             { name: '关于窝', link: '/about', icon: <Icon icon="mdi:about-circle-outline" />},
             { name: '说说', link: '/shuoshuo', icon: <Icon icon="ri:kakao-talk-fill" />},
-            { name: 'todo', link: '/todolist', icon: <Icon icon="lucide:list-todo" />},
+            { name: 'todo', link: '/todo', icon: <Icon icon="lucide:list-todo" />},
     ]},
     {
         list: "协议",

@@ -8,7 +8,7 @@ export const metadata:Metadata = {
     icons: "/ciraos.webp",
 };
 
-export default function Todolist(){
+export default function Todo(){
     return (
         <>
             <div className="w-full max-w-6xl py-[40px] px-[15px] my-0 mx-auto flex transition-all max-768:flex-col">
@@ -20,7 +20,8 @@ export default function Todolist(){
                         </ol>
                     </div>
                 </div>
-            <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
-        </div>
-    </>
-)}
+                <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+            </div>
+        </>
+    )
+}
