@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Rightside from "@/components/rightside";
 
@@ -23,7 +22,6 @@ export default function RootLayout({children,}:Readonly<{children:React.ReactNod
         {children}
         <Footer />
         {/* <Rightside /> */}
-        {/* <Search /> */}
       </body>
     </html>
   );
