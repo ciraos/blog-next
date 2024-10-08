@@ -23,7 +23,7 @@ export const navList = [
         child: [
             { name: '友人帐', link: '/friends',         icon: <Icon icon="fa-solid:user-friends" />},
             { name: '朋友圈', link: '/fcircle',         icon: <Icon icon="ph:chat-circle-thin" />},
-            { name: '留言板', link: '/commentBoard',   icon: <Icon icon="wpf:message" />},
+            { name: '留言板', link: '/comments',   icon: <Icon icon="wpf:message" />},
     ]},
     {
         list: "我的",

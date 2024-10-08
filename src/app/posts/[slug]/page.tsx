@@ -7,6 +7,7 @@ import Image from "next/image";
 import ciraos from "@/app/images/ciraos.webp"
 import Aside from "@/components/aside";
 import Link from "next/link";
+import Twikoo from "@/components/thirdParty/twikoo";
 
 type Props = {
   params: { slug: string };
@@ -47,15 +48,16 @@ export default async function Post({ params }: Props) {
 
         <div className="flex mt-5 max-768:w-full">
 
-          <div className="main-container w-3/4 max-768:w-full">
-            <div className="bg-white rounded-t-xl px-4 py-4 shadow-sm hover:shadow-md">
+          <div className="w-3/4 max-768:w-full">
+            <div className="main-container bg-white rounded-t-xl px-4 py-4 shadow-sm hover:shadow-md">
               <MDXRemote source={post.content} components={{}} options={{}} />
             </div>
-            <div className="mx-auto py-1 px-0 bg-white shadow-md hover:shadow-lg">
+            <div className="mt-4 mx-auto py-1 px-0">
                 <Image src={ciraos} alt="avatar1" title="avatar1" className="w-16 h-16 mx-auto"></Image>
                 <div className="w-full mt-2 mx-auto flex items-center justify-center"><Icon icon="ic:outline-article" className="mr-1 text-xl" /><div className="text-lg">{post.meta?.title}</div></div>
                 <div className="text-center text-sm text-gray-400">本博客所有文章除特别声明外，均采用<Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" className="underline mx-1 text-slate-500">CC BY-NC-SA 4.0</Link>许可协议，转载请注明来自葱苓sama！</div>
               </div>
+              <Twikoo />
           </div>
 
           <div className="w-1/4 pl-4 max-768:hidden"><Aside /></div>

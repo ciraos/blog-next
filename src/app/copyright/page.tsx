@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Aside from "@/components/aside";
+import Twikoo from "@/components/thirdParty/twikoo";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -54,6 +55,8 @@ export default function Copyright() {
 
                 <h2>网站源代码协议</h2>
                 <p>网站源代码（仅包含 css、js）的代码部分采用 GPL 协议。</p>
+
+                <Twikoo />
             </div>
         
             <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>

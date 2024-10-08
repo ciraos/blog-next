@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Aside from "@/components/aside";
+import Twikoo from "@/components/thirdParty/twikoo";
 import type { Metadata } from "next";
 import { friendlink } from "@/config/link";
 
@@ -21,9 +22,9 @@ export default function Friends(){
                                 <div className="text-2xl">{group.groupName}</div>
                                 <div className="text-md text-slate-600">{group.groupDescr}</div>
                             </div>
-                            <div className="flink flex justify-evenly flex-wrap gap-[.5] max-768:w-4/5 max-768:mx-auto">
+                            <div className="flink grid grid-cols-4 gap-0 max-768:w-4/5 max-768:mx-auto">
                                 {group.child.map((child, index) => (
-                                    <Link key={index} href={child.link} target="_blank" rel="noopener noreferrer" className="bg-white w-60 h-20 rounded-xl px-1 py-1 flex items-center justify-around max-768:w-full max-768:justify-around">
+                                    <Link key={index} href={child.link} target="_blank" rel="noopener noreferrer" className="bg-white w-48 h-20 rounded-xl px-1 py-1 flex items-center justify-around max-768:w-full max-768:justify-around">
                                         <img src={child.avatar} alt="friend_avatar" className="w-10 h-10 rounded-[50%]"></img>
                                         <div className="w-32 overflow-hidden">
                                             <div className="text-orange-400">{child.name}</div>
@@ -34,6 +35,7 @@ export default function Friends(){
                             </div>
                         </div>
                     ))}
+                    <Twikoo />
                 </div>
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
             </div>

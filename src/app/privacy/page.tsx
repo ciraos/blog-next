@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import Aside from "@/components/aside";
+import Twikoo from "@/components/thirdParty/twikoo";
 
 export const metadata:Metadata = {
   icons: "/ciraos.webp",
@@ -139,6 +140,8 @@ export default function Privacy(){
                     <p>当监测到存在恶意访问、恶意请求、恶意攻击、恶意评论的行为时，为了防止增大受害范围，可能会临时将你的ip地址及访问信息短期内添加到黑名单，短期内禁止访问。此黑名单可能被公开，并共享给其他站点（主体并非本人）使用，包括但不限于：IP地址、设备信息、地理位置。</p>
                     {/* 信息收集JS 来自blog.qjqq.cn */}
                     <pre><code className="language-javascript">代码省略</code></pre>
+
+                    <Twikoo />
                 </div>
 
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
