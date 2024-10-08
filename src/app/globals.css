@@ -228,42 +228,8 @@ body {
   background-color: transparent;
 } */
 
-.flink a::after,
-.twikoo a::after {
+.flink a::after {
   content: "" !important;
-}
-
-.twikoo a {
-  text-decoration: underline;
-}
-
-.tk-comment {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 12px;
-}
-
-.tk-comment p {
-  margin: 0;
-  text-indent: 0;
-}
-
-.code-toolbar {
-  border-radius: 12px;
-}
-
-.toolbar-item {
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-/* .tk-expand-wrap {} */
-
-.tk-expand {
-  background-color: #fff;
-  margin: 5px 0;
-  border-radius: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
