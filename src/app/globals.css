@@ -10,14 +10,6 @@
   --box-shadow-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 244, 244, 244;
-    --background-start-rgb: 15, 20, 35;
-    --background-end-rgb: 20, 20, 20;
-  }
-}
-
 body {
   /* background: linear-gradient(to right, rgb(var(--background-end-rgb)) 10%, rgb(var(--background-start-rgb)) 90%); */
   background-color: #f4f4f4;
@@ -208,6 +200,7 @@ body {
   margin: 10px auto;
 }
 
+/* 
 .main-container pre {
   width: 75%;
   background-color: #000;
@@ -233,7 +226,7 @@ body {
 
 .main-container pre::-webkit-scrollbar-track {
   background-color: transparent;
-}
+} */
 
 .flink a::after,
 .twikoo a::after {
@@ -271,6 +264,14 @@ body {
   background-color: #fff;
   margin: 5px 0;
   border-radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 244, 244, 244;
+    --background-start-rgb: 15, 20, 35;
+    --background-end-rgb: 20, 20, 20;
+  }
 }
 
 /* @media screen and (max-width: 320px) {} */

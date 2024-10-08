@@ -25,7 +25,7 @@ export const todolist = [
     },{
         id: 5,
         content: "Twikoo评论系统",
-        isFinished: false
+        isFinished: true
     },{
         id: 6,
         content: "第三方插件实装ing",

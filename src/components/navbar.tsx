@@ -28,8 +28,8 @@ export default function Navbar() {
         </div>
 
         <div className="w-1/3 h-16 flex items-center justify-end text-xl gap-2">
-          <div id="search"><Icon icon="iconamoon:search-duotone" /></div>
-          {/* <div id="darkModeToggleButton" className="w-5 h-5 rounded-[50%] bg-black border-2 border-solid border-black cursor-pointer transition-all"></div> */}
+          <div id="randonPost" className="cursor-pointer"><Icon width="1.1em" height="1.1em" icon="game-icons:perspective-dice-six-faces-random" /></div>
+          <div id="search" className="cursor-pointer"><Icon width="1.1em" height="1.1em" icon="iconamoon:search-duotone" /></div>
           <div className="mo-nav hidden hover:rotate-45 max-768:block"><Icon icon="hugeicons:menu-square" /></div>
         </div>
         

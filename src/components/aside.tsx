@@ -31,7 +31,7 @@ export default async function Aside(){
                 <div className="flex items-center"><Icon icon="ion:time-outline" className="mr-1 text-blue-400" /><span className="">最近更新</span></div>
                 <ul className="mt-1">
                     {posts.map((post, index) => (
-                        <li key={index} className="w-full flex justify-between">
+                        <li key={index} className="w-full px-1 flex justify-between">
                             <Link href={`/posts/${post.slug}`} className="w-2/3 h-max text-slate-600 text-sm hover:text-green-600">{post.meta?.title}</Link>
                             <span className="text-slate-500 text-sm">{moment(post.meta?.updated).format("MM-DD")}</span>
                         </li>

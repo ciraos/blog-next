@@ -7,7 +7,6 @@ import Image from "next/image";
 import ciraos from "@/app/images/ciraos.webp"
 import Aside from "@/components/aside";
 import Link from "next/link";
-import Twikoo from "@/components/thirdParty/twikoo";
 
 type Props = {
   params: { slug: string };
@@ -57,7 +56,6 @@ export default async function Post({ params }: Props) {
                 <div className="w-full mt-2 mx-auto flex items-center justify-center"><Icon icon="ic:outline-article" className="mr-1 text-xl" /><div className="text-lg">{post.meta?.title}</div></div>
                 <div className="text-center text-sm text-gray-400">本博客所有文章除特别声明外，均采用<Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" className="underline mx-1 text-slate-500">CC BY-NC-SA 4.0</Link>许可协议，转载请注明来自葱苓sama！</div>
               </div>
-              <Twikoo />
           </div>
 
           <div className="w-1/4 pl-4 max-768:hidden"><Aside /></div>

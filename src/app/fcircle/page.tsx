@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Aside from "@/components/aside";
-import Twikoo from "@/components/thirdParty/twikoo";
 import { Metadata } from "next";
 
 export const metadata:Metadata = {
@@ -15,7 +14,6 @@ export default function Fcircle() {
             <div className="main-container w-3/4 px-2 py-2 max-768:w-full">
                 <div className="text-5xl text-gray-500 font-semibold py-5 px-5">友链朋友圈</div>
                 {/* fcircle Container */}
-                <Twikoo />
             </div>
             <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
         </div>

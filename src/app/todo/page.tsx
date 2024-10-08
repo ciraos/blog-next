@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Aside from "@/components/aside";
-import Twikoo from "@/components/thirdParty/twikoo";
 import { todolist } from "@/config/todolist";
 import type { Metadata } from "next";
 
@@ -22,7 +21,6 @@ export default function Todo(){
                             </ol>
                         </div>
                     </div>
-                    <Twikoo />
                 </div>
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
             </div>

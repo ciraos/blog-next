@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import Aside from "@/components/aside";
-import Twikoo from "@/components/thirdParty/twikoo";
 
 export const metadata:Metadata = {
   icons: "/ciraos.webp",
@@ -141,7 +140,6 @@ export default function Privacy(){
                     {/* 信息收集JS 来自blog.qjqq.cn */}
                     <pre><code className="language-javascript">代码省略</code></pre>
 
-                    <Twikoo />
                 </div>
 
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>

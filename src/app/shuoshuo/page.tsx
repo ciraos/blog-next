@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Twikoo from "@/components/thirdParty/twikoo";
 import type { Metadata } from "next";
 import Aside from "@/components/aside";
 import moment from "moment";
@@ -32,7 +31,6 @@ export default function Shuoshuo() {
               </li>
             ))}
           </ul>
-          <Twikoo />
         </div>
         <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
       </div>
