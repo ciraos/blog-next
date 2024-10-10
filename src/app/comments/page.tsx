@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-
 import Aside from "@/components/aside";
-import Twikoo from "@/components/thirdParty/twikoo";
 
 export const metadata: Metadata = {
     title: "留言板 - 葱苓sama",
@@ -22,8 +20,7 @@ export default function Comments() {
                         <p className="text-center text-4xl text-green-600">或者你有什么疑问？</p>
                         <p className="text-center text-4xl text-purple-600">都可以在这里提出来哦！</p>
                         <p className="text-center text-4xl text-pink-600">我会耐心解答的！</p>
-                    </div>
-                    <Twikoo />
+                    </div>  
                 </div>
 
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
