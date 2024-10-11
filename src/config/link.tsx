@@ -37,7 +37,10 @@ export const friendlink = [
             { name: '小康', link: 'https://www.antmoe.com', avatar: 'https://cdn.jsdelivr.net/gh/ciraos/ciraos-static@main/img/friends/xiaokang.avif', descr: '一个收藏回忆与分享技术的地方！'},
             { name: 'Colsrch', link: 'https://colsrch.cn', avatar: 'https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg', descr: '愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'},
             { name: 'Black Flies', link: 'https://www.yyyzyyyz.cn', avatar: 'https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG', descr: 'When nothing goes right,just go left.', siteshot: 'https://npm.elemecdn.com/imgscdn/img/202111191934973.jpg'},
-            { name: "Tianli", link: 'https://tianli-blog.club', avatar: 'https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640', descr: '自知之明是最可贵的知识！'}
+            { name: "Tianli", link: 'https://tianli-blog.club', avatar: 'https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640', descr: '自知之明是最可贵的知识！'},
+            { name: 'Redish101', link: 'https://blog.redish101.top', avatar: 'https://avatars.githubusercontent.com/u/64068446?v=4', descr: '学生，人，活的。' },
+            { name: "铭心石刻", link:"https://blog.kouseki.cn", avatar:"https://blog.kouseki.cn/imgs/avatar.webp", descr:"愿岁并谢，与友长兮"},
+            { name: "伍十七", link:"https://blog.everfu.cn", avatar:"https://ui.everfu.cn/c625e37b3cf9054d92a52ec04ce8abf0.png/avatar", descr:"我是一名正在上大一的前端爱好者,专注于构建优秀的应用程序。"}
         ],
     },
     {
@@ -80,7 +83,6 @@ export const friendlink = [
             { name: "Fgaoxing", link:"https://www.yt-blog.top", avatar:"https://npm.elemecdn.com/ytblogimg/webp/logo.webp", descr:"一个少年的博客"},
             { name: "小码同学", link:"https://blog.hikki.site", avatar:"https://bu.dusays.com/2022/11/04/636511250b21b.jpg", descr:"喜欢的东西就努力去追求，万一成功了呢!"},
             { name: "snailuu", link:"https://blogg.snailuu.cn", avatar:"https://oss.snailuu.cn/hexo/author/headphoto192-192.png", descr:"分享记录一切生活美好瞬间"},
-            { name: "铭心石刻", link:"https://blog.kouseki.cn", avatar:"https://blog.kouseki.cn/imgs/avatar.webp", descr:"愿岁并谢，与友长兮"},
             { name: "海底捞里没有鱼", link:"https://smileszh.cn", avatar:"https://bu.dusays.com/2023/06/10/648499e1299d0.jpg", descr:"平安喜乐，万事胜意"},
             { name: "Ganzhe", link:"https://ganzhe2028.github.io", avatar:"https://pic.imgdb.cn/item/64895d391ddac507cce97bc3.webpg", descr:"顺其自然，持之以恒"},
             { name: "别亦难", link:"https://lazyingman.com", avatar:"https://bu.dusays.com/2023/06/23/64959cf745a4d.png", descr:"准时不定期更新"},
@@ -119,7 +121,6 @@ export const friendlink = [
             { name: "未知之旅", link:"https://blog.xenosp.cn", avatar:"https://cravatar.cn/avatar/4EA126708E5063621186D6B5895D2684", descr:"在未知中成长，超越自我"},
             { name: "HiPeach", link:"https://blog.opeach.cn", avatar:"https://npm.elemecdn.com/opicture@1.0.0/main/avatar.webp", descr:"妙不可言","color":"8000A0","tag":"Peach"},
             { name: "Calyee", link:"https://blog.calyee.top", avatar:"https://blog.calyee.top/img/avatar.jpg", descr:"追求充实，分享快乐"},
-            { name: "伍十七", link:"https://blog.everfu.cn", avatar:"https://ui.everfu.cn/c625e37b3cf9054d92a52ec04ce8abf0.png/avatar", descr:"我是一名正在上大一的前端爱好者,专注于构建优秀的应用程序。"},
             { name: "小林笔记", link:"https://m.senlinm.cn", avatar:"https://cdn.jsdelivr.net/gh/ciraos/ciraos-static@main/img/friends/xiaolinbiji.avif", descr:"轻生活，秒上签"},
             { name: "Mikuの次行星", link:"https://tkgso.fun", avatar:"https://cravatar.cn/avatar/ba76faef3cc8252bd0433b3515124389?s=512", descr:"心有多宽，世界就有多远"},
             { name: "Auriel", link:"https://www.auriel.top", avatar:"https://blog.auriel.top/img/avatar.png", descr:"生活的最佳状态，是在冷冷清清中风风火火"},
@@ -165,7 +166,6 @@ export const friendlink = [
             { name: "小植", link: "https://blog.xiaoztx.top", avatar: 'https://blog.xiaoztx.top/img/xiaozhi.jpg', descr: '生生不息，好运不止' },
             { name: "小智", link: "https://blog.cuixinyu.com", avatar: 'https://blog.cuixinyu.com/img/others/avatar.png', descr: '记录学习踩坑' },
             { name: 'eastwind', link: 'https://996.windydante.top', avatar: 'http://qiniu.xianwu.store/Image_1727602993857.jpg', descr: '东风不与周郎便' },
-            { name: 'Redish101', link: 'https://blog.redish101.top', avatar: 'https://avatars.githubusercontent.com/u/64068446?v=4', descr: '学生，人，活的。' },
             // { name: '', link: '', avatar: '', descr: '' },
         ],
     },
