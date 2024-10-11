@@ -34,6 +34,33 @@ export default function Friends(){
                             </div>
                         </div>
                     ))}
+                    <hr className="my-5 mx-0" />
+                    <div className="tab-box">
+                        <div className="tab-header">
+                            <div className="">约法三章</div>
+                            <div className="">我的信息</div>
+                            <div className="">butterfly、anzhiyu主题</div>
+                            <div className="">volantis主题</div>
+                            <div className="">fluid主题</div>
+                        </div>
+                        <div className="tab-content">
+                            <div className="tab-content-item">
+                                <ol>
+                                    <li>因为我的网站经常炸掉，所以我建议你的链接<strong>不要挂掉</strong>哦；</li>
+                                    <li>网站必须有 强制https协议头；</li>
+                                    <li>已经添加 葱苓sama 的博客；</li>
+                                    <li>博客内容与生活、科技等等有关，请勿上传违法 大陆法律、法规 的内容；</li>
+                                    <li>链接主体为 个人，网站类型为 博客；</li>
+                                    <li>网站现在可以在 中国大陆区域 正常访问；</li>
+                                    <li>网站内容符合中国大陆 法律法规。</li>
+                                    <li>失联友链就不予以展示了（</li>
+                                </ol>
+                            </div>
+                            <div className="tab-content-item">a</div>
+                            <div className="tab-content-item">a</div>
+                            <div className="tab-content-item">a</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
             </div>

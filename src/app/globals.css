@@ -29,10 +29,6 @@ body {
   margin-top: 20px;
 }
 
-/* #recent-post>#recent-post-item:nth-child(even) {
-  flex-direction: row-reverse;
-} */
-
 .todo>li:not(:first-child) {
   margin-top: 5px;
 }
@@ -41,12 +37,11 @@ body {
   display: block;
 }
 
-/* .p-container {} */
-
-.p-progress {
-  height: inherit;
+.flink a::after {
+  content: "" !important;
 }
 
+/*! */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -63,8 +58,10 @@ body {
   background-color: transparent;
 }
 
+/*! */
 .main-container {
   word-wrap: break-word;
+  padding: 0 10px;
 }
 
 .main-container h1,
@@ -120,6 +117,8 @@ body {
   padding: 0 10px;
 }
 
+/* .main-container strong {} */
+
 /* .main-container pre {} */
 /* .main-container pre code {} */
 
@@ -157,8 +156,7 @@ body {
   content: "↗";
   color: #39c5bb;
   margin-left: 2px;
-  /* margin-top: -2px; */
-  /* position: absolute; */
+  font-size: 14px;
 }
 
 .main-container p {
@@ -172,6 +170,7 @@ body {
 
 .main-container ol {
   margin-top: 10px;
+  margin-left: 1.5rem;
 }
 
 .main-container ol li {
@@ -181,6 +180,7 @@ body {
 
 .main-container ul {
   margin-top: 10px;
+  margin-left: 1.5rem;
 }
 
 .main-container ul li {
@@ -227,9 +227,41 @@ body {
 .main-container pre::-webkit-scrollbar-track {
   background-color: transparent;
 } */
+.tab-box {
+  width: 95%;
+  margin: 20px auto 0;
+  background-color: #Fff;
+  padding: 0 1rem 1rem;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
 
-.flink a::after {
-  content: "" !important;
+.tab-box:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+
+.tab-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 100%;
+  gap: 12px;
+  padding: 1rem;
+}
+
+.tab-header div {
+  width: max-content;
+  border: 1px solid #000000;
+  padding: 6PX;
+  border-radius: 12px;
+}
+
+.tab-content {
+  border: 1px solid rgb(150, 147, 147);
+  /* border-radius: 12px; */
+  padding: 1rem;
+  margin-top: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -237,6 +269,10 @@ body {
     --foreground-rgb: 244, 244, 244;
     --background-start-rgb: 15, 20, 35;
     --background-end-rgb: 20, 20, 20;
+  }
+
+  body {
+    background-color: #201d2c;
   }
 }
 

@@ -24,29 +24,25 @@ export default function Privacy(){
 
                       <h3>在访问时，收集访问信息的服务会收集不限于以下信息：</h3>
                       <ul>
-                        <li><strong>网络身份标识信息</strong> （浏览器UA、IP地址）</li>
-                      </ul>
-                      <ul>
-                        <li><strong>设备信息</strong></li>
-                      </ul>
-                      <ul>
-                        <li><strong>浏览过程</strong>（操作方式、浏览方式与时长、性能与网络加载情况）。</li>
+                        <li><strong>网络身份标识信息：</strong> （浏览器UA、IP地址）</li>
+                        <li><strong>设备信息：</strong></li>
+                        <li><strong>浏览过程：</strong>（操作方式、浏览方式与时长、性能与网络加载情况）。</li>
                       </ul>
 
                       <h3>在访问时，本站内置的第三方服务会通过以下或更多途径，来获取你的以下或更多信息：</h3>
                       <ul>
-                          <li><strong>百度统计工具</strong>会收集你的访问信息、访问操作过程</li>
-                          <li><strong>51la统计工具</strong>会收集你的访问信息</li>
-                          <li><strong>灵雀应用监控平台</strong>会收集你的访问操作过程和资源加载情况</li>
-                          <li><strong>今日头条搜索</strong>会收集你的访问信息</li>
-                          <li><strong>字节跳动静态资源库</strong>会收集你的访问信息</li>
-                          <li><strong>Tianlicdn</strong>会收集你的访问信息</li>
-                          <li><strong>busuanzi统计</strong>会收集你的访问信息</li>
-                          <li><strong>腾讯云</strong>会收集你的访问信息</li>
-                          <li><strong>腾讯Codesign</strong>会收集你的访问信息</li>
-                        <li><strong>阿里cdn（iconfont）</strong>会收集你的访问信息</li>
-                        <li><strong>网易云音乐</strong>会收集你的访问信息</li>
-                        <li><strong>QQ音乐</strong>会收集你的访问信息</li>
+                        <li><strong>百度统计工具：</strong>会收集你的访问信息、访问操作过程</li>
+                        <li><strong>51la统计工具：</strong>会收集你的访问信息</li>
+                        <li><strong>灵雀应用监控平台：</strong>会收集你的访问操作过程和资源加载情况</li>
+                        <li><strong>今日头条搜索：</strong>会收集你的访问信息</li>
+                        <li><strong>字节跳动静态资源库：</strong>会收集你的访问信息</li>
+                        <li><strong>Tianlicdn：</strong>会收集你的访问信息</li>
+                        <li><strong>busuanzi统计：</strong>会收集你的访问信息</li>
+                        <li><strong>腾讯云：</strong>会收集你的访问信息</li>
+                        <li><strong>腾讯Codesign：</strong>会收集你的访问信息</li>
+                        <li><strong>阿里cdn（iconfont）：</strong>会收集你的访问信息</li>
+                        <li><strong>网易云音乐：</strong>会收集你的访问信息</li>
+                        <li><strong>QQ音乐：</strong>会收集你的访问信息</li>
                       </ul>
 
                       <h3>在访问时，本人仅会处于以下目的，使用你的个人信息：</h3>
@@ -66,28 +62,28 @@ export default function Privacy(){
                       <h3>你应该知道在你访问的时候不限于以下信息会被第三方获取并使用：</h3>
                       <p>第三方部分为了抵抗攻击、使用不同节点cdn加速等需求会收集不限于以下信息</p>
                       <ul>
-                        <li><strong>IP地址 </strong><div id="userAgentIp"></div></li>
+                        <li><strong>IP地址:</strong><div id="userAgentIp"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>州/大陆 </strong><div id="userAgentState"></div></li>
+                        <li><strong>州/大陆：</strong><div id="userAgentState"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>国家 </strong><div id="userAgentCountry"></div></li>
+                        <li><strong>国家：</strong><div id="userAgentCountry"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>省份 </strong><div id="userAgentProv"></div></li>
+                        <li><strong>省份：</strong><div id="userAgentProv"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>城市 </strong><div id="userAgentCity"></div></li>
+                        <li><strong>城市：</strong><div id="userAgentCity"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>区 </strong><div id="userAgentDistrict"></div></li>
+                        <li><strong>区：</strong><div id="userAgentDistrict"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>运营商 </strong><div id="userAgentISP"></div></li>
+                        <li><strong>运营商：</strong><div id="userAgentISP"></div></li>
                       </ul>
                       <ul>
-                        <li><strong>设备</strong><div id="userAgentDevice"></div></li>
+                        <li><strong>设备：</strong><div id="userAgentDevice"></div></li>
                       </ul>
 
                     <h2>二、在评论时如何收集和使用你的个人信息</h2>

@@ -6,10 +6,10 @@ import Capoo from "@/components/capoo";
 export default function Footer() {
   return (
     <>
-      <div id="footer" className="footer w-full bottom-0 clear-both mx-auto my-0 py-0 text-center">
+      <div id="footer" className="footer w-full bottom-0 relative clear-both mx-auto my-0 py-2 text-center">
 
         <Capoo />
-        <div className="mx-auto flex h-6 w-1/2 items-center justify-center gap-4">
+        <div className="mx-auto flex h-6 w-1/2 items-center justify-center gap-4 dark:text-gray-400">
           <ul className="text-2xl">
             <li><Link href="https://github.com/ciraos" target="_blank" rel="noopener noreferrer"><Icon icon="bi:github" /></Link></li>
           </ul>
@@ -20,7 +20,7 @@ export default function Footer() {
             <li><Link href="mailto:ciraos@yeah.net"><Icon icon="tabler:mail-filled" /></Link></li>
           </ul>
         </div>
-        <p className="">All rights reserved to ©葱苓sama 2024.</p>
+        <p className="dark:text-slate-400">All rights reserved to ©葱苓sama 2024.</p>
         <Link href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer" className="text-orange-500">皖ICP备2023018992号-1</Link>
         
       </div>

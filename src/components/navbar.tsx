@@ -6,12 +6,12 @@ import { Icon } from "@iconify/react";
 export default function Navbar() {
   return (
     <>
-      <div id="navbar" className="w-full max-w-6xl h-16 my-0 mx-auto px-4 flex justify-between items-center rounded-b-xl bg-white shadow-lg hover:shadow-xl">
+      <div id="navbar" className="w-full max-w-6xl h-16 my-0 mx-auto px-4 flex justify-between items-center rounded-b-xl bg-white shadow-lg hover:shadow-xl dark:bg-dacard">
 
-        <Link href="/" className="w-1/3 h-16 flex items-center text-base text-black transition-all max-425:w-max">葱苓samaの博客</Link>
+        <Link href="/" className="w-1/3 h-16 flex items-center text-base text-black transition-all max-425:w-max dark:text-white">葱苓samaの博客</Link>
 
         <div className="nav w-1/3 h-16 content-center text-lg text-black max-425:hidden">
-          <ul className="navlist w-full flex justify-end gap-1">
+          <ul className="navlist w-full flex justify-end gap-1 dark:text-white">
             {navList?.map((item, index) => (
               <li key={index} className="btli w-24 text-center">
                 <div className="no-underline hover:underline hover:underline-offset-2">
@@ -27,7 +27,7 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <div className="w-1/3 h-16 flex items-center justify-end text-xl gap-2">
+        <div className="w-1/3 h-16 flex items-center justify-end text-xl gap-2 dark:text-white">
           <div id="randonPost" className="cursor-pointer"><Icon width="1.1em" height="1.1em" icon="game-icons:perspective-dice-six-faces-random" /></div>
           <div id="search" className="cursor-pointer"><Icon width="1.1em" height="1.1em" icon="iconamoon:search-duotone" /></div>
           <div className="mo-nav hidden hover:rotate-45 max-768:block"><Icon icon="hugeicons:menu-square" /></div>
