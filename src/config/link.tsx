@@ -1,4 +1,3 @@
-
 interface friendlink {
     groupName: string,
     groupDescr: string,
@@ -166,6 +165,7 @@ export const friendlink = [
             { name: "小植", link: "https://blog.xiaoztx.top", avatar: 'https://blog.xiaoztx.top/img/xiaozhi.jpg', descr: '生生不息，好运不止' },
             { name: "小智", link: "https://blog.cuixinyu.com", avatar: 'https://blog.cuixinyu.com/img/others/avatar.png', descr: '记录学习踩坑' },
             { name: 'eastwind', link: 'https://996.windydante.top', avatar: 'http://qiniu.xianwu.store/Image_1727602993857.jpg', descr: '东风不与周郎便' },
+            { name: 'Redish101', link: 'https://blog.redish101.top', avatar: 'https://avatars.githubusercontent.com/u/64068446?v=4', descr: '学生，人，活的。' },
             // { name: '', link: '', avatar: '', descr: '' },
         ],
     },
