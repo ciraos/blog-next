@@ -269,13 +269,13 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .ss {
+@media screen and (min-width: 320px) and (max-width: 373px) {
+  .flink a {
     width: 100%;
   }
+}
 
-  /* .ss-item {} */
-
+@media screen and (max-width: 768px) {
   #recent-post>#recent-post-item:nth-child(even) {
     flex-direction: column;
   }
