@@ -4,14 +4,12 @@ import matter from "gray-matter";
 import readingTime from 'reading-time';
 
 const postsDir = join(process.cwd(), "posts");
-
 type readingTime = {
     text: string;
     minutes: string;
     time: number;
     words: number;
 };
-
 type MetaData = {
     title: string;
     date: Date;

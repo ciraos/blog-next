@@ -18,9 +18,9 @@ export default function Shuoshuo() {
           {/* 标题 */}
           <div className="w-max h-16 my-0 mx-auto flex text-xl items-center"><p className="before:content-['────'] before:mr-2 after:content-['────'] after:ml-2">碎碎念</p></div>
           {/* 容器 */}
-          <ul className="ss mt-2 px-2 transition-all grid grid-cols-3 gap-2">
+          <ul className="ss mt-2 px-2 transition-all">
             {sslist.map((item, index) =>(
-              <li key={index} className="ss-item w-72 h-max bg-white rounded-xl leading-relaxed flex flex-col justify-between px-2 py-2 transition-all shadow-sm hover:shadow-md">
+              <li key={index} className="w-72 h-max bg-white rounded-xl leading-relaxed flex flex-col justify-between px-2 py-2 transition-all shadow-sm hover:shadow-md">
                 <p className="">{item.content}</p>
                 <div className="my-1 columns-4 gap-1 transition-all hover:columns-3">{item.images}</div>
                 <hr className="my-2" />
