@@ -266,12 +266,13 @@ body {
 @media screen and (max-width: 320px) {
   .flink a {
     width: 100%;
+    padding: 0;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 373px) {
   .flink a {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
