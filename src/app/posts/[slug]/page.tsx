@@ -2,7 +2,6 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { Icon } from "@iconify/react";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import moment from "moment";
-
 import Image from "next/image";
 import ciraos from "@/app/images/ciraos.webp"
 import Aside from "@/components/aside";
@@ -45,7 +44,7 @@ export default async function Post({ params }: Props) {
         </div>
 
 
-        <div className="flex mt-5 max-768:w-full">
+        <div className="flex mt-5 max-768:w-full max-425:flex-col">
 
           <div className="w-3/4 max-768:w-full">
             <div className="main-container bg-white rounded-xl px-8 py-4 shadow-sm hover:shadow-md">
@@ -58,7 +57,7 @@ export default async function Post({ params }: Props) {
               </div>
           </div>
 
-          <div className="w-1/4 pl-4 max-768:hidden"><Aside /></div>
+          <Aside />
         </div>
 
       </div>

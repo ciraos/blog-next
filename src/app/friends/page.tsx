@@ -21,7 +21,7 @@ export default function Friends(){
                                 <h2 className="text-2xl">{group.groupName}</h2>
                                 <p className="text-sm text-slate-600 dark:text-slate-200">{group.groupDescr}</p>
                             </div>
-                            <div className="flink flex flex-wrap justify-between gap-0">
+                            <div className="flink flex flex-wrap justify-between gap-0 transition-alll">
                                 {group.child.map((child, index) => (
                                     <Link key={index} href={child.link} target="_blank" rel="noopener noreferrer" className="bg-white w-44 h-20 rounded-xl px-2 py-2 flex items-center transition-all max-425:h-24 max-375:w-[154px] max-425:text-center max-425:flex-col max-320:mx-auto dark:bg-dacard">
                                         <img src={child.avatar} alt="friend_avatar" className="w-10 h-10 rounded-[50%] mr-2 max-425:mr-0"></img>
@@ -62,7 +62,7 @@ export default function Friends(){
                         </div>
                     </div>
                 </div>
-                <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+                <Aside />
             </div>
         </>
     )

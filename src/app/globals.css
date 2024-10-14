@@ -25,6 +25,10 @@ body {
   }
 }
 
+.transition-alll {
+  transition: all .5s linear;
+}
+
 #recent-post>#recent-post-item:not(:first-child) {
   margin-top: 20px;
 }
@@ -39,6 +43,44 @@ body {
 
 .flink a::after {
   content: "" !important;
+}
+
+/*! tab选项卡 */
+.tab-box {
+  width: 95%;
+  margin: 20px auto 0;
+  background-color: #Fff;
+  padding: 0 1rem 1rem;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
+
+.tab-box:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+
+.tab-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: max-content;
+  width: 100%;
+  gap: 12px;
+  padding: 1rem;
+}
+
+.tab-header div {
+  width: max-content;
+  border: 1px solid #000000;
+  padding: 6PX;
+  border-radius: 12px;
+}
+
+.tab-content {
+  border: 1px solid rgb(150, 147, 147);
+  /* border-radius: 12px; */
+  padding: 1rem;
+  /* margin-top: 10px; */
 }
 
 /*! */
@@ -117,7 +159,6 @@ body {
 }
 
 /* .main-container strong {} */
-
 /* .main-container pre {} */
 /* .main-container pre code {} */
 
@@ -187,8 +228,6 @@ body {
   list-style-position: inside;
 }
 
-/* .main-container strong {} */
-
 .main-container table,
 .main-container th,
 .main-container td {
@@ -199,43 +238,7 @@ body {
   margin: 10px auto;
 }
 
-.tab-box {
-  width: 95%;
-  margin: 20px auto 0;
-  background-color: #Fff;
-  padding: 0 1rem 1rem;
-  border-radius: 12px;
-  box-shadow: var(--box-shadow);
-}
-
-.tab-box:hover {
-  box-shadow: var(--box-shadow-hover);
-}
-
-.tab-header {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: max-content;
-  width: 100%;
-  gap: 12px;
-  padding: 1rem;
-}
-
-.tab-header div {
-  width: max-content;
-  border: 1px solid #000000;
-  padding: 6PX;
-  border-radius: 12px;
-}
-
-.tab-content {
-  border: 1px solid rgb(150, 147, 147);
-  /* border-radius: 12px; */
-  padding: 1rem;
-  /* margin-top: 10px; */
-}
-
+/*! */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 244, 244, 244;
@@ -263,21 +266,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .flink a {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 373px) {
-  .flink a {
-    width: 100% !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #recent-post>#recent-post-item:nth-child(even) {
-    flex-direction: column;
-  }
-}
+/*! */
+/* @media screen and (max-width: 320px) {} */
+/* @media screen and (min-width: 320px) and (max-width: 373px) {} */
+/* @media screen and (max-width: 768px) {} */

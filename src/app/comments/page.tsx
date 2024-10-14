@@ -23,7 +23,7 @@ export default function Comments() {
                     </div>  
                 </div>
 
-                <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+                <Aside />
             </div>
         </>
     )

@@ -92,7 +92,7 @@ export default function Cookies() {
                     <p>我可能对此 Cookie 政策所做的任何更改都将发布在此页面上。如果更改很重要，我会在我的主页或应用上明确指出该政策已更新。</p>
 
                 </div>
-                <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+                <Aside />
             </div>
 
         </>

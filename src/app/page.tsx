@@ -25,7 +25,7 @@ export default async function Home() {
           </div>
         ))}
       </div>
-      <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0 max-768:mt-5"><Aside /></div>
+      <Aside />
     </div>
   </>
   );

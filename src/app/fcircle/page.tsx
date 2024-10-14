@@ -15,7 +15,7 @@ export default function Fcircle() {
                 <div className="text-5xl text-gray-500 font-semibold py-5 px-5">友链朋友圈</div>
                 {/* fcircle Container */}
             </div>
-            <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+            <Aside />
         </div>
     </>
   )

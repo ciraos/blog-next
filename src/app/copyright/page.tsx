@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Aside from "@/components/aside";
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -58,7 +57,7 @@ export default function Copyright() {
 
             </div>
         
-            <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0"><Aside /></div>
+            <Aside />
         </div>
     </>
   );

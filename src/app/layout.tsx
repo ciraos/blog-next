@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "./twikoo.css"
+import "./twikoo.css";
+
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Rightside from "@/components/rightside";
@@ -19,7 +20,6 @@ export default function RootLayout({children,}:Readonly<{children:React.ReactNod
       {/* <body className={inter.className}>{children}</body> */}
       <body className="">
         <Navbar />
-        {/* <Banner /> */}
         {children}
         <Footer />
         {/* <Rightside /> */}
