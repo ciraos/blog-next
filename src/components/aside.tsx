@@ -9,8 +9,8 @@ export default async function Aside(){
     const posts = await getAllPosts();
     return (
         <>
-            <div className="w-1/4 pl-4 max-768:w-full max-768:pl-0">
-                <div className="h-72 bg-miku-green rounded-xl py-2 text-center flex flex-col justify-evenly shadow-sm hover:shadow-md max-768:hidden dark:bg-dacard1">
+            <div className="aside w-1/4 pl-4 max-768:w-full max-768:pl-0">
+                <div className="h-72 bg-miku-green rounded-xl py-2 text-center flex flex-col justify-evenly shadow-sm hover:shadow-md dark:bg-dacard1 max-425:hidden">
                     <div className=""><div className="w-24 mx-auto text-sm font-bold border-2 border-solid rounded-xl px-2 py-1">Welcome!!</div></div>
                     <div className="leading-5">
                         <Image src={ciraos} alt="avatar" className="w-24 h-24 mt-2 mx-auto" loading="lazy" />

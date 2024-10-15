@@ -18,7 +18,7 @@ export default async function Tags() {
                 
                 <div className="main-container w-3/4 bg-white rounded-xl px-2 py-2 max-768:w-full">
                     <div className="text-5xl text-gray-500 font-semibold py-5 px-5">分类</div>
-                    <ol className="flex flex-wrap gap-2">
+                    <ol className="flex flex-wrap justify-center gap-1">
                         {posts.map((post, index) =>(
                             <li key={index} className="h-10 px-4 py-0 flex items-center rounded-xl bg-white border-2 border-solid border-slate-300 max-425:w-max">
                                 <Icon icon="mdi:tag-outline" className="" />

@@ -44,10 +44,10 @@ export default async function Post({ params }: Props) {
         </div>
 
 
-        <div className="flex mt-5 max-768:w-full max-425:flex-col">
+        <div className="flex mt-5 max-768:w-full max-768:flex-col">
 
           <div className="w-3/4 max-768:w-full">
-            <div className="main-container bg-white rounded-xl px-8 py-4 shadow-sm hover:shadow-md">
+            <div className="post-container bg-white rounded-xl px-8 py-4 shadow-sm hover:shadow-md">
               <MDXRemote source={post.content} components={{}} options={{}} />
             </div>
             <div className="mt-4 mx-auto py-1 px-0">
